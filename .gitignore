@@ -1,0 +1,43 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variable files
+.env
+.env.*.local
+
+# Ignore typescript build output
+dist/
+build/
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore package manager files
+package-lock.json
+yarn.lock
+.pnpmfile.cjs
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore coverage files
+coverage/
+*.lcov
+
+# Ignore specific files
+*.tsbuildinfo
